@@ -32,7 +32,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 highlight:
   enable: true
@@ -81,6 +81,18 @@ disqus_shortname:
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
 theme: freemind
 exclude_generator:
+
+#minify files for production, using the hexo-generator-optimize package
+#https://www.npmjs.org/package/hexo-generator-optimize
+optimize:
+  # Defaults
+  image_min: true
+  css_concat: true
+  css_min: true
+  js_concat: true
+  js_min: true
+  html_min: true
+  gzip: true
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
