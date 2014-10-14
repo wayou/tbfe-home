@@ -41,35 +41,23 @@
 	  <% } else { %>
 	  <!-- display as list -->
 	  <div class="archive">
-		<% page.posts.each(function(item){ %>		
-		<%
-		   year = item.date.toDate().getFullYear();
-		   month = item.date.toDate().getMonth();
-		   %>
-		<% if (year != last_year){ %>
-			<% if (!is_first_year) { %>
-			</ul>
-			<% } %>
-			<% is_first_year = 0 %>
-			<h4 class="archive-ul" data-toggle="collapse" data-target="#<%= year %>"><%= year %><b class="caret"></b></h4>
-			<ul id="<%= year %>" class="collapse in">
-			<% last_year = year; %>
-		<% } %>
-<li class="listing-item">
-  <span class="date_class"> <%= item.date.format("YYYY-MM-DD") %> </span> &raquo;
-  <% if (item.link){ %>
-  <% if (item.title){ %>
-  <span class="title link"><a href="<%- item.link %>" target="_blank" <% if (item.description) { %> title="<%= item.description %>" <% } %>><%= item.title %></a></span>
-  <% } else { %>
-  <span class="title link"><a href="<%- item.link %>" target="_blank" <% if (item.description) { %> title="<%= item.description %>" <% } %>><%= item.link %></a></span>
-  <% } %>
-  <% } else { %>
-  <span class="title"><a href="<%- config.root %><%- item.path %>" <% if (item.description) { %> title="<%= item.description %>" <% } %>><%= item.title %></a></span>
-  <% } %>
-</li>			
-<% }); %>
-</ul>
-</div>
+        <ul>
+    		<% page.posts.each(function(item){ %>		
+                <li class="listing-item">
+                  <span class="date_class"> <%= item.date.format("YYYY-MM-DD") %> </span> 
+                  <% if (item.link){ %>
+                  <% if (item.title){ %>
+                  <span class="title link"><a href="<%- item.link %>" target="_blank" <% if (item.description) { %> title="<%= item.description %>" <% } %>><%= item.title %></a></span>
+                  <% } else { %>
+                  <span class="title link"><a href="<%- item.link %>" target="_blank" <% if (item.description) { %> title="<%= item.description %>" <% } %>><%= item.link %></a></span>
+                  <% } %>
+                  <% } else { %>
+                  <span class="title"><a href="<%- config.root %><%- item.path %>" <% if (item.description) { %> title="<%= item.description %>" <% } %>><%= item.title %></a></span>
+                  <% } %>
+                </li>			
+            <% }); %>
+        </ul>
+      </div>
 <% } %>
 
 </div> <!-- col-md-9/col-md-12 -->
