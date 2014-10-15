@@ -39,7 +39,7 @@ links:
 widgets:
 - search
 - category
-- tagcloud
+# - tagcloud
 - recent_posts  
 - links
 
