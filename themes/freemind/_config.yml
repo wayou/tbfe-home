@@ -37,7 +37,7 @@ links:
     icon: "fa fa-github"
 
 widgets:
-- search
+# - search
 - category
 # - tagcloud
 - recent_posts  

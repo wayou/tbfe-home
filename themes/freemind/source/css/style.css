@@ -1,3 +1,8 @@
+/*rewrite bt style*/
+.badge{
+  background-color: #ccc;
+}
+
 /* =============================================================================
    container
    ========================================================================== */
@@ -165,7 +170,7 @@ li i {
 }
 .tag_box a:hover {
   /*background-color:#397bdd;*/
-  background-color:#eee;
+  /*background-color:#eee;*/
   /*color:#FFF;*/
 }
 .tag_box a.active {
