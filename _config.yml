@@ -95,6 +95,10 @@ optimize:
   html_min: true
   gzip: true
 
+feed:
+  type: atom
+  limit: 20
+
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:

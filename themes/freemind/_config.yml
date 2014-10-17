@@ -25,6 +25,10 @@ menu:
     url: about
     intro: "About me."
     icon: "fa fa-info-circle"
+  - title: RSS
+    url: atom.xml
+    intro: "订阅"
+    icon: "fa fa-rss"
 
 links:
   - title: 贴吧FE WiKi
