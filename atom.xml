@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Tieba FE]]></title>
+  
+  <link href="/tbfe-home/atom.xml" rel="self"/>
+  <link href="http://wayou.github.io/"/>
+  <updated>2014-10-17T14:38:40.646Z</updated>
+  <id>http://wayou.github.io/</id>
+  
+  <author>
+    <name><![CDATA[tieba fe internal team]]></name>
+    <email><![CDATA[liuyong12@baidu.com]]></email>
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[测试目录的自动高亮]]></title>
+    <link href="http://wayou.github.io/2014/10/17/toc/"/>
+    <id>http://wayou.github.io/2014/10/17/toc/</id>
+    <published>2014-10-17T06:00:16.000Z</published>
+    <updated>2014-10-17T11:49:31.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="一级标题一级标题一级标题一级标题一级标题一级标题一级标题一级标题">一级标题一级标题一级标题一级标题一级标题一级标题一级标题一级标题</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quo veritatis sit non quam explicabo ea repellat cumque dolor aliquid corporis porro, perferendis natus. Repellendus sapiente quos illo, explicabo doloribus.<br><a id="more"></a></p>
+<h2 id="二级标题一级标题一级标题一级标题一级标题一级标题一级标题一级标题一级标题">二级标题一级标题一级标题一级标题一级标题一级标题一级标题一级标题一级标题</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<h2 id="二级标题2">二级标题2</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quos, ab iusto quis deserunt ipsum tempore et assumenda amet rerum ipsa, quam veritatis sint maiores mollitia vero ducimus. Soluta, minima!</p>
+<h3 id="三级标题1">三级标题1</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam accusantium iusto quam voluptatibus totam asperiores minus, maxime magni! In delectus sequi laboriosam blanditiis culpa natus obcaecati mollitia ipsam adipisci. Placeat.<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<h3 id="三级标题2">三级标题2</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quis, voluptatum fugit necessitatibus quam ipsam, illum perferendis cupiditate ducimus, fuga eligendi quibusdam et quos ea sit blanditiis iure nisi suscipit.</p>
+<h2 id="二级标题3">二级标题3</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<h1 id="一级标题2">一级标题2</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quo veritatis sit non quam explicabo ea repellat cumque dolor aliquid corporis porro, perferendis natus. Repellendus sapiente quos illo, explicabo doloribus.</p>
+<h2 id="二级标题21">二级标题21</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<h2 id="二级标题22">二级标题22</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quos, ab iusto quis deserunt ipsum tempore et assumenda amet rerum ipsa, quam veritatis sint maiores mollitia vero ducimus. Soluta, minima!</p>
+<h2 id="二级标题23">二级标题23</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<h1 id="一级标题3">一级标题3</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quo veritatis sit non quam explicabo ea repellat cumque dolor aliquid corporis porro, perferendis natus. Repellendus sapiente quos illo, explicabo doloribus.</p>
+<h2 id="二级标题31">二级标题31</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<h2 id="二级标题32">二级标题32</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quos, ab iusto quis deserunt ipsum tempore et assumenda amet rerum ipsa, quam veritatis sint maiores mollitia vero ducimus. Soluta, minima!</p>
+<h2 id="二级标题33">二级标题33</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
+<h3 id="三级标题31">三级标题31</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam accusantium iusto quam voluptatibus totam asperiores minus, maxime magni! In delectus sequi laboriosam blanditiis culpa natus obcaecati mollitia ipsam adipisci. Placeat.</p>
+<h3 id="三级标题32">三级标题32</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quis, voluptatum fugit necessitatibus quam ipsam, illum perferendis cupiditate ducimus, fuga eligendi quibusdam et quos ea sit blanditiis iure nisi suscipit.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="一级标题一级标题一级标题一级标题一级标题一级标题一级标题一级标题">一级标题一级标题一级标题一级标题一级标题一级标题一级标题一级标题</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quo veritatis sit non quam explicabo ea repellat cumque dolor aliquid corporis porro, perferendis natus. Repellendus sapiente quos illo, explicabo doloribus.<br>]]>
+    
+    </summary>
+    
+      <category term="test" scheme="http://wayou.github.io/tags/test/"/>
+    
+      <category term="tag1" scheme="http://wayou.github.io/tags/tag1/"/>
+    
+      <category term="category1" scheme="http://wayou.github.io/categories/category1/"/>
+    
+      <category term="category11" scheme="http://wayou.github.io/categories/category1/category11/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Semver 2.0.0]]></title>
+    <link href="http://wayou.github.io/2014/10/16/Semver-2-0-0/"/>
+    <id>http://wayou.github.io/2014/10/16/Semver-2-0-0/</id>
+    <published>2014-10-16T07:36:47.000Z</published>
+    <updated>2014-10-17T08:39:04.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="Summary">Summary</h1>
+<p>Given a version number MAJOR.MINOR.PATCH, increment the:</p>
+<ol>
+<li>MAJOR version when you make incompatible API changes,</li>
+<li>MINOR version when you add functionality in a backwards-compatible<br>manner, and</li>
+<li>PATCH version when you make backwards-compatible bug fixes.</li>
+</ol>
+<p>Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.<br><a id="more"></a></p>
+<h1 id="Introduction">Introduction</h1>
+<p>In the world of software management there exists a dread place called<br>“dependency hell.” The bigger your system grows and the more packages you<br>integrate into your software, the more likely you are to find yourself, one<br>day, in this pit of despair.</p>
+<p>In systems with many dependencies, releasing new package versions can quickly<br>become a nightmare. If the dependency specifications are too tight, you are in<br>danger of version lock (the inability to upgrade a package without having to<br>release new versions of every dependent package). If dependencies are<br>specified too loosely, you will inevitably be bitten by version promiscuity<br>(assuming compatibility with more future versions than is reasonable).<br>Dependency hell is where you are when version lock and/or version promiscuity<br>prevent you from easily and safely moving your project forward.</p>
+<p>As a solution to this problem, I propose a simple set of rules and<br>requirements that dictate how version numbers are assigned and incremented.<br>These rules are based on but not necessarily limited to pre-existing<br>widespread common practices in use in both closed and open-source software.<br>For this system to work, you first need to declare a public API. This may<br>consist of documentation or be enforced by the code itself. Regardless, it is<br>important that this API be clear and precise. Once you identify your public<br>API, you communicate changes to it with specific increments to your version<br>number. Consider a version format of X.Y.Z (Major.Minor.Patch). Bug fixes not<br>affecting the API increment the patch version, backwards compatible API<br>additions/changes increment the minor version, and backwards incompatible API<br>changes increment the major version.</p>
+<p>I call this system “Semantic Versioning.” Under this scheme, version numbers<br>and the way they change convey meaning about the underlying code and what has<br>been modified from one version to the next.</p>
+<h1 id="Semantic_Versioning_Specification">Semantic Versioning Specification</h1>
+<p>The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”,<br>“SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be<br>interpreted as described in <a href="http://tools.ietf.org/html/rfc2119" target="_blank" rel="external">RFC 2119</a>.</p>
+<ol>
+<li><p>Software using Semantic Versioning MUST declare a public API. This API<br>could be declared in the code itself or exist strictly in documentation.<br>However it is done, it should be precise and comprehensive.</p>
+</li>
+<li><p>A normal version number MUST take the form X.Y.Z where X, Y, and Z are<br>non-negative integers, and MUST NOT contain leading zeroes. X is the<br>major version, Y is the minor version, and Z is the patch version.<br>Each element MUST increase numerically. For instance: 1.9.0 -&gt; 1.10.0 -&gt; 1.11.0.</p>
+</li>
+<li><p>Once a versioned package has been released, the contents of that version<br>MUST NOT be modified. Any modifications MUST be released as a new version.</p>
+</li>
+<li><p>Major version zero (0.y.z) is for initial development. Anything may change<br>at any time. The public API should not be considered stable.</p>
+</li>
+<li><p>Version 1.0.0 defines the public API. The way in which the version number<br>is incremented after this release is dependent on this public API and how it<br>changes.</p>
+</li>
+<li><p>Patch version Z (x.y.Z | x &gt; 0) MUST be incremented if only backwards<br>compatible bug fixes are introduced. A bug fix is defined as an internal<br>change that fixes incorrect behavior.</p>
+</li>
+<li><p>Minor version Y (x.Y.z | x &gt; 0) MUST be incremented if new, backwards<br>compatible functionality is introduced to the public API. It MUST be<br>incremented if any public API functionality is marked as deprecated. It MAY be<br>incremented if substantial new functionality or improvements are introduced<br>within the private code. It MAY include patch level changes. Patch version<br>MUST be reset to 0 when minor version is incremented.</p>
+</li>
+<li><p>Major version X (X.y.z | X &gt; 0) MUST be incremented if any backwards<br>incompatible changes are introduced to the public API. It MAY include minor<br>and patch level changes. Patch and minor version MUST be reset to 0 when major<br>version is incremented.</p>
+</li>
+<li><p>A pre-release version MAY be denoted by appending a hyphen and a<br>series of dot separated identifiers immediately following the patch<br>version. Identifiers MUST comprise only ASCII alphanumerics and hyphen<br>[0-9A-Za-z-]. Identifiers MUST NOT be empty. Numeric identifiers MUST<br>NOT include leading zeroes. Pre-release versions have a lower<br>precedence than the associated normal version. A pre-release version<br>indicates that the version is unstable and might not satisfy the<br>intended compatibility requirements as denoted by its associated<br>normal version. Examples: 1.0.0-alpha, 1.0.0-alpha.1, 1.0.0-0.3.7,<br>1.0.0-x.7.z.92.</p>
+</li>
+<li><p>Build metadata MAY be denoted by appending a plus sign and a series of dot<br>separated identifiers immediately following the patch or pre-release version.<br>Identifiers MUST comprise only ASCII alphanumerics and hyphen [0-9A-Za-z-].<br>Identifiers MUST NOT be empty. Build metadata SHOULD be ignored when determining<br>version precedence. Thus two versions that differ only in the build metadata,<br>have the same precedence. Examples: 1.0.0-alpha+001, 1.0.0+20130313144700,<br>1.0.0-beta+exp.sha.5114f85.</p>
+</li>
+<li><p>Precedence refers to how versions are compared to each other when ordered.<br>Precedence MUST be calculated by separating the version into major, minor, patch<br>and pre-release identifiers in that order (Build metadata does not figure<br>into precedence). Precedence is determined by the first difference when<br>comparing each of these identifiers from left to right as follows: Major, minor,<br>and patch versions are always compared numerically. Example: 1.0.0 &lt; 2.0.0 &lt;<br>2.1.0 &lt; 2.1.1. When major, minor, and patch are equal, a pre-release version has<br>lower precedence than a normal version. Example: 1.0.0-alpha &lt; 1.0.0. Precedence<br>for two pre-release versions with the same major, minor, and patch version MUST<br>be determined by comparing each dot separated identifier from left to right<br>until a difference is found as follows: identifiers consisting of only digits<br>are compared numerically and identifiers with letters or hyphens are compared<br>lexically in ASCII sort order. Numeric identifiers always have lower precedence<br>than non-numeric identifiers. A larger set of pre-release fields has a higher<br>precedence than a smaller set, if all of the preceding identifiers are equal.<br>Example: 1.0.0-alpha &lt; 1.0.0-alpha.1 &lt; 1.0.0-alpha.beta &lt; 1.0.0-beta &lt;<br>1.0.0-beta.2 &lt; 1.0.0-beta.11 &lt; 1.0.0-rc.1 &lt; 1.0.0.</p>
+</li>
+</ol>
+<h2 id="Why_Use_Semantic_Versioning?">Why Use Semantic Versioning?</h2>
+<p>This is not a new or revolutionary idea. In fact, you probably do something<br>close to this already. The problem is that “close” isn’t good enough. Without<br>compliance to some sort of formal specification, version numbers are<br>essentially useless for dependency management. By giving a name and clear<br>definition to the above ideas, it becomes easy to communicate your intentions<br>to the users of your software. Once these intentions are clear, flexible (but<br>not too flexible) dependency specifications can finally be made.</p>
+<p>A simple example will demonstrate how Semantic Versioning can make dependency<br>hell a thing of the past. Consider a library called “Firetruck.” It requires a<br>Semantically Versioned package named “Ladder.” At the time that Firetruck is<br>created, Ladder is at version 3.1.0. Since Firetruck uses some functionality<br>that was first introduced in 3.1.0, you can safely specify the Ladder<br>dependency as greater than or equal to 3.1.0 but less than 4.0.0. Now, when<br>Ladder version 3.1.1 and 3.2.0 become available, you can release them to your<br>package management system and know that they will be compatible with existing<br>dependent software.</p>
+<p>As a responsible developer you will, of course, want to verify that any<br>package upgrades function as advertised. The real world is a messy place;<br>there’s nothing we can do about that but be vigilant. What you can do is let<br>Semantic Versioning provide you with a sane way to release and upgrade<br>packages without having to roll new versions of dependent packages, saving you<br>time and hassle.</p>
+<p>If all of this sounds desirable, all you need to do to start using Semantic<br>Versioning is to declare that you are doing so and then follow the rules. Link<br>to this website from your README so others know the rules and can benefit from<br>them.</p>
+<h2 id="FAQ">FAQ</h2>
+<h3 id="How_should_I_deal_with_revisions_in_the_0-y-z_initial_development_phase?">How should I deal with revisions in the 0.y.z initial development phase?</h3>
+<p>The simplest thing to do is start your initial development release at 0.1.0<br>and then increment the minor version for each subsequent release.</p>
+<h3 id="How_do_I_know_when_to_release_1-0-0?">How do I know when to release 1.0.0?</h3>
+<p>If your software is being used in production, it should probably already be<br>1.0.0. If you have a stable API on which users have come to depend, you should<br>be 1.0.0. If you’re worrying a lot about backwards compatibility, you should<br>probably already be 1.0.0.</p>
+<h3 id="Doesn’t_this_discourage_rapid_development_and_fast_iteration?">Doesn’t this discourage rapid development and fast iteration?</h3>
+<p>Major version zero is all about rapid development. If you’re changing the API<br>every day you should either still be in version 0.y.z or on a separate<br>development branch working on the next major version.</p>
+<h3 id="If_even_the_tiniest_backwards_incompatible_changes_to_the_public_API_require_a_major_version_bump,_won’t_I_end_up_at_version_42-0-0_very_rapidly?">If even the tiniest backwards incompatible changes to the public API require a major version bump, won’t I end up at version 42.0.0 very rapidly?</h3>
+<p>This is a question of responsible development and foresight. Incompatible<br>changes should not be introduced lightly to software that has a lot of<br>dependent code. The cost that must be incurred to upgrade can be significant.<br>Having to bump major versions to release incompatible changes means you’ll<br>think through the impact of your changes, and evaluate the cost/benefit ratio<br>involved.</p>
+<h3 id="Documenting_the_entire_public_API_is_too_much_work!">Documenting the entire public API is too much work!</h3>
+<p>It is your responsibility as a professional developer to properly document<br>software that is intended for use by others. Managing software complexity is a<br>hugely important part of keeping a project efficient, and that’s hard to do if<br>nobody knows how to use your software, or what methods are safe to call. In<br>the long run, Semantic Versioning, and the insistence on a well defined public<br>API can keep everyone and everything running smoothly.</p>
+<h3 id="What_do_I_do_if_I_accidentally_release_a_backwards_incompatible_change_as_a_minor_version?">What do I do if I accidentally release a backwards incompatible change as a minor version?</h3>
+<p>As soon as you realize that you’ve broken the Semantic Versioning spec, fix<br>the problem and release a new minor version that corrects the problem and<br>restores backwards compatibility. Even under this circumstance, it is<br>unacceptable to modify versioned releases. If it’s appropriate,<br>document the offending version and inform your users of the problem so that<br>they are aware of the offending version.</p>
+<h3 id="What_should_I_do_if_I_update_my_own_dependencies_without_changing_the_public_API?">What should I do if I update my own dependencies without changing the public API?</h3>
+<p>That would be considered compatible since it does not affect the public API.<br>Software that explicitly depends on the same dependencies as your package<br>should have their own dependency specifications and the author will notice any<br>conflicts. Determining whether the change is a patch level or minor level<br>modification depends on whether you updated your dependencies in order to fix<br>a bug or introduce new functionality. I would usually expect additional code<br>for the latter instance, in which case it’s obviously a minor level increment.</p>
+<h3 id="What_if_I_inadvertently_alter_the_public_API_in_a_way_that_is_not_compliant_with_the_version_number_change_(i-e-_the_code_incorrectly_introduces_a_major_breaking_change_in_a_patch_release)">What if I inadvertently alter the public API in a way that is not compliant with the version number change (i.e. the code incorrectly introduces a major breaking change in a patch release)</h3>
+<p>Use your best judgment. If you have a huge audience that will be drastically<br>impacted by changing the behavior back to what the public API intended, then<br>it may be best to perform a major version release, even though the fix could<br>strictly be considered a patch release. Remember, Semantic Versioning is all<br>about conveying meaning by how the version number changes. If these changes<br>are important to your users, use the version number to inform them.</p>
+<h3 id="How_should_I_handle_deprecating_functionality?">How should I handle deprecating functionality?</h3>
+<p>Deprecating existing functionality is a normal part of software development and<br>is often required to make forward progress. When you deprecate part of your<br>public API, you should do two things: (1) update your documentation to let<br>users know about the change, (2) issue a new minor release with the deprecation<br>in place. Before you completely remove the functionality in a new major release<br>there should be at least one minor release that contains the deprecation so<br>that users can smoothly transition to the new API.</p>
+<h3 id="Does_semver_have_a_size_limit_on_the_version_string?">Does semver have a size limit on the version string?</h3>
+<p>No, but use good judgment. A 255 character version string is probably overkill,<br>for example. Also, specific systems may impose their own limits on the size of<br>the string.</p>
+<h2 id="About">About</h2>
+<p>The Semantic Versioning specification is authored by <a href="http://tom.preston-werner.com" target="_blank" rel="external">Tom<br>Preston-Werner</a>, inventor of Gravatars and<br>cofounder of GitHub.</p>
+<p>If you’d like to leave feedback, please <a href="https://github.com/mojombo/semver/issues" target="_blank" rel="external">open an issue on<br>GitHub</a>.</p>
+<h2 id="License">License</h2>
+<p><a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="external">Creative Commons - CC BY 3.0</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="Summary">Summary</h1>
+<p>Given a version number MAJOR.MINOR.PATCH, increment the:</p>
+<ol>
+<li>MAJOR version when you make incompatible API changes,</li>
+<li>MINOR version when you add functionality in a backwards-compatible<br>manner, and</li>
+<li>PATCH version when you make backwards-compatible bug fixes.</li>
+</ol>
+<p>Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.<br>]]>
+    
+    </summary>
+    
+      <category term="semver" scheme="http://wayou.github.io/tags/semver/"/>
+    
+      <category term="dev" scheme="http://wayou.github.io/tags/dev/"/>
+    
+      <category term="doc" scheme="http://wayou.github.io/categories/doc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Markdown Sample]]></title>
+    <link href="http://wayou.github.io/2014/10/16/Markdown-Sample/"/>
+    <id>http://wayou.github.io/2014/10/16/Markdown-Sample/</id>
+    <published>2014-10-16T07:18:19.000Z</published>
+    <updated>2014-10-16T07:29:02.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="An_h1_header">An h1 header</h1>
+<p>Paragraphs are separated by a blank line.</p>
+<p>2nd paragraph. <em>Italic</em>, <strong>bold</strong>, and <code>monospace</code>. Itemized lists<br>look like:</p>
+<ul>
+<li>this one</li>
+<li>that one</li>
+<li><p>the other one</p>
+<a id="more"></a>
+
+</li>
+</ul>
+<p>Note that —- not considering the asterisk —- the actual text<br>content starts at 4-columns in.</p>
+<blockquote>
+<p>Block quotes are<br>written like so.</p>
+<p>They can span multiple paragraphs,<br>if you like.</p>
+</blockquote>
+<p>Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., “it’s all<br>in chapters 12—14”). Three dots … will be converted to an ellipsis.<br>Unicode is supported. ☺</p>
+<h2 id="An_h2_header">An h2 header</h2>
+<p>Here’s a numbered list:</p>
+<ol>
+<li>first item</li>
+<li>second item</li>
+<li>third item</li>
+</ol>
+<p>Note again how the actual text starts at 4 columns in (4 characters<br>from the left side). Here’s a code sample:</p>
+<pre><code># <span class="keyword">Let</span> <span class="keyword">me</span> re-iterate ...
+<span class="keyword">for</span> i <span class="keyword">in</span> <span class="number">1</span> .. <span class="number">10</span> { <span class="keyword">do</span>-something(i) }
+</code></pre><p>As you probably guessed, indented 4 spaces. By the way, instead of<br>indenting the block, you can use delimited blocks, if you like:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="title">define</span> foobar() {</div><div class="line">    <span class="title">print</span> <span class="string">"Welcome to flavor country!"</span>;</div><div class="line">}</div></pre></td></tr></table></figure>
+
+<p>(which makes copying &amp; pasting easier). You can optionally mark the<br>delimited block for Pandoc to syntax highlight it:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> time</div><div class="line"><span class="comment"># Quick, count to ten!</span></div><div class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">10</span>):</div><div class="line">    <span class="comment"># (but not *too* quick)</span></div><div class="line">    time.sleep(<span class="number">0.5</span>)</div><div class="line">    <span class="keyword">print</span> i</div></pre></td></tr></table></figure>
+
+<h3 id="An_h3_header">An h3 header</h3>
+<p>Now a nested list:</p>
+<ol>
+<li><p>First, get these ingredients:</p>
+<ul>
+<li>carrots</li>
+<li>celery</li>
+<li>lentils</li>
+</ul>
+</li>
+<li><p>Boil some water.</p>
+</li>
+<li><p>Dump everything in the pot and follow<br>this algorithm:</p>
+<pre><code>find wooden spoon
+uncover pot
+stir
+cover pot
+balance wooden spoon precariously <span class="keyword">on</span> pot handle
+wait <span class="number">10</span> minutes
+<span class="keyword">goto</span> first <span class="keyword">step</span> (<span class="keyword">or</span> shut <span class="keyword">off</span> burner <span class="keyword">when</span> done)
+</code></pre><p>Do not bump wooden spoon or it will fall.</p>
+</li>
+</ol>
+<p>Notice again how text always lines up on 4-space indents (including<br>that last line which continues item 3 above).</p>
+<p>Here’s a link to <a href="http://foo.bar" target="_blank" rel="external">a website</a>, to a <a href="local-doc.html">local<br>doc</a>, and to a <a href="#an-h2-header">section heading in the current<br>doc</a>. Here’s a footnote [^1].</p>
+<p>[^1]: Footnote text goes here.</p>
+<p>Tables can look like this:</p>
+<p>size  material      color</p>
+<hr>
+<p>9     leather       brown<br>10    hemp canvas   natural<br>11    glass         transparent</p>
+<p>Table: Shoes, their sizes, and what they’re made of</p>
+<p>(The above is the caption for the table.) Pandoc also supports<br>multi-line tables:</p>
+<hr>
+<p>keyword   text</p>
+<hr>
+<p>red       Sunsets, apples, and<br>          other red or reddish<br>          things.</p>
+<p>green     Leaves, grass, frogs<br>          and other things it’s<br>          not easy being.</p>
+<hr>
+<p>A horizontal rule follows.</p>
+<hr>
+<p>Here’s a definition list:</p>
+<p>apples<br>  : Good for making applesauce.<br>oranges<br>  : Citrus!<br>tomatoes<br>  : There’s no “e” in tomatoe.</p>
+<p>Again, text is indented 4 spaces. (Put a blank line between each<br>term/definition pair to spread things out more.)</p>
+<p>Here’s a “line block”:</p>
+<p>| Line one<br>|   Line too<br>| Line tree</p>
+<p>and images can be specified like so:</p>
+<p><img src="/tbfe-home/asset/markdown-sample/md.jpg" alt="example image"></p>
+<p>Inline math equations go in like so: $\omega = d\phi / dt$. Display<br>math should get its own line and be put in in double-dollarsigns:</p>
+<p>$$I = \int \rho R^{2} dV$$</p>
+<p>And note that you can backslash-escape any punctuation characters<br>which you wish to be displayed literally, ex.: `foo`, *bar*, etc.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="An_h1_header">An h1 header</h1>
+<p>Paragraphs are separated by a blank line.</p>
+<p>2nd paragraph. <em>Italic</em>, <strong>bold</strong>, and <code>monospace</code>. Itemized lists<br>look like:</p>
+<ul>
+<li>this one</li>
+<li>that one</li>
+<li><p>the other one</p>
+]]>
+    
+    </summary>
+    
+      <category term="markdown" scheme="http://wayou.github.io/tags/markdown/"/>
+    
+      <category term="doc" scheme="http://wayou.github.io/categories/doc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Bootstrap Tags]]></title>
+    <link href="http://wayou.github.io/2014/10/16/bootstrap-tags/"/>
+    <id>http://wayou.github.io/2014/10/16/bootstrap-tags/</id>
+    <published>2014-10-16T04:12:09.000Z</published>
+    <updated>2014-10-16T09:10:14.000Z</updated>
+    <content type="html"><![CDATA[<p>Use bootstrap tags in MD document.</p>
+<a id="more"></a>
+
+<ul class="nav nav-tabs" role="tablist"><li class="active"><a href="#">Home</a></li><li><a href="#">Profile</a></li><li><a href="#">Messages</a></li></ul>
+
+
+<div class="alert alert-warning"><i class="fa fa-bell"></i>  <p>Best check yo self, you’re not looking too good.</p>
+</div>
+
+<div class="alert alert-danger"><i class="fa fa-bug"></i>  <p>Change a few things up and try submitting again.</p>
+</div>
+
+<div class="alert alert-success"><i class="fa fa-lightbulb-o"></i>  <p>You successfully read this important alert message.</p>
+</div>
+
+<div class="alert alert-info"><i class="fa fa-info"></i>  <p>This alert needs your attention, but it’s not super important.</p>
+</div>]]></content>
+    <summary type="html">
+    <![CDATA[<p>Use bootstrap tags in MD document.</p>
+]]>
+    
+    </summary>
+    
+      <category term="bootstrap" scheme="http://wayou.github.io/tags/bootstrap/"/>
+    
+      <category term="UI" scheme="http://wayou.github.io/categories/UI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Lorem Ipsum]]></title>
+    <link href="http://wayou.github.io/2014/10/16/Lorem-Ipsum/"/>
+    <id>http://wayou.github.io/2014/10/16/Lorem-Ipsum/</id>
+    <published>2014-10-16T04:03:58.000Z</published>
+    <updated>2014-10-16T05:29:21.000Z</updated>
+    <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, libero, doloribus. Alias odit sapiente voluptatibus ea, repellendus a commodi? Ex eius, temporibus praesentium nobis voluptas architecto maxime velit debitis repellat!</p>
+<p><a id="more"></a><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quos quasi aspernatur atque voluptatum, repudiandae ullam facilis voluptates odit, officia optio hic, ratione magnam dolorem eligendi ab! Asperiores, voluptatem, architecto!</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima quidem laboriosam, corporis alias accusantium at quas, iure debitis obcaecati illo consequatur animi culpa odio consequuntur nobis quia sapiente dicta quod.</p>
+<p><img src="/tbfe-home/asset/lorem-ipsum/li.jpg" alt="lorem ipsum">;</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<br>consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse<br>cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non<br>proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>here is the shortcut of vim, click to download:</p>
+<p><a href="/tbfe-home/asset/lorem-ipsum/vim-shortcut.pdf">vim shortcut.pdf</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, libero, doloribus. Alias odit sapiente voluptatibus ea, repellendus a commodi? Ex eius, temporibus praesentium nobis voluptas architecto maxime velit debitis repellat!</p>
+<p>]]>
+    
+    </summary>
+    
+      <category term="文档" scheme="http://wayou.github.io/tags/%E6%96%87%E6%A1%A3/"/>
+    
+      <category term="doc" scheme="http://wayou.github.io/categories/doc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://wayou.github.io/2014/10/12/hello-world/"/>
+    <id>http://wayou.github.io/2014/10/12/hello-world/</id>
+    <published>2014-10-12T08:26:57.000Z</published>
+    <updated>2014-10-17T07:05:35.000Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick_Start">Quick Start</h2>
+<h3 id="Create_a_new_post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick_Start">Quick Start</h2>
+<h3 id="Create_a_new_post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+
+]]>
+    
+    </summary>
+    
+  </entry>
+  
+</feed>
