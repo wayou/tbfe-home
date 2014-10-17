@@ -1,1 +1,1 @@
-$(document).ready(function(){});
+$(function(){$("#toc").tocify({})});
