@@ -15,8 +15,40 @@
 	<% } %>		
 
 	<!-- content -->
-	<div class="mypage">		
-	    <%- item.content %>	  
+	<div class="mypage">
+		<div class="row widget-wrapper">
+			<!-- date -->
+			<% if (item.date) { %>
+			<i class="fa fa-clock-o"></i>
+			<span class="post-time"><%= item.date.format(config.date_format+' '+config.time_format) %></span> 
+			<% } %>
+
+			<!-- categories -->
+		    <% if (item.categories  && item.categories.length ) { %>
+				<i class="fa fa-folder"></i>
+				<%
+				 var cats = [];
+				 item.categories.forEach(function(cat){
+				   cats.push('<a class="label label-success" href="' + config.root + cat.path + '">' + cat.name + '</a>');
+				 });
+				 %>
+				<%- cats.join(' ') %>
+			<% } %>
+
+			<!-- tags -->
+			<% if(item.tags && item.tags.length ){ %>
+				<i class="fa fa-tags"></i>
+				<% var tags = [];
+				 item.tags.forEach(function(tag){
+				   tags.push('<a class="label label-warning" href="' + config.root + tag.path + '">' + tag.name + '</a>');
+				 });
+				%>
+				<%- tags.join(' ') %>
+			<% } %>
+		</div>
+
+
+	    <%- item.content %>	 
 	</div>
 
 	<div>
