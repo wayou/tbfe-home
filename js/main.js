@@ -1,1 +1,1 @@
-$(function(){$("#toc").tocify({context:".mypage",scrollHistory:!0})});
+$(function(){$("#toc").tocify({context:".mypage",scrollHistory:!0,theme:"bootstrap3",selectors:"h1,h2"}),$(window).on("scroll",function(){})});
