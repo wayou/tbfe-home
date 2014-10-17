@@ -1,1 +1,1 @@
-$(function(){$("#toc").tocify({context:".mypage",scrollHistory:!0,theme:"bootstrap3",selectors:"h1,h2"}),$(window).on("scroll",function(){})});
+function sticky_relocate(){var o=$(window).scrollTop(),t=$("#sticky-anchor").offset().top;o>t?$("#toc").addClass("stick"):$("#toc").removeClass("stick")}$(function(){$("#toc").tocify({context:".mypage",scrollHistory:!0,theme:"bootstrap3",selectors:"h1,h2"}),$(window).scroll(sticky_relocate),sticky_relocate()});
