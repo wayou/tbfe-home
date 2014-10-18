@@ -637,7 +637,9 @@
 
                                         "class": extendPageClassName,
 
-                                        "height": Math.abs(lastElemOffset - winScrollTop) + "px",
+                                        // "height": Math.abs(lastElemOffset - winScrollTop) + "px",
+                                        // adapted by wayou
+                                        "height": "50px",
 
                                         "data-unique": extendPageClassName
 
