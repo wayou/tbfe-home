@@ -1,6 +1,6 @@
 $(function() {
     var $toc = $("#toc");
-    if ( !! $toc.length&&screen.width>999) {
+    if ( !! $toc.length && screen.width > 999) {
         $("#toc").tocify({
             context: '.mypage',
             scrollHistory: true,
@@ -12,12 +12,11 @@ $(function() {
         var $window = $(window),
             $stickyEl = $('#toc'),
             elTop = $stickyEl.offset().top;
-
         $window.scroll(function() {
+            console.log($stickyEl);
             $stickyEl.toggleClass('sticky-scroll', $window.scrollTop() > elTop - 110);
         });
     }
-
 
     // highlight the menu
     menuHighlight();
@@ -37,8 +36,8 @@ function menuHighlight() {
             y = e.pageY - this.offsetTop;
             xy = x + " " + y;
 
-            bgWebKit = "-webkit-gradient(radial, " + xy + ", 0, " + xy + ", "+gradientSize+", from("+lightColor+"), to(rgba(66,133,244,1.0))), " + originalBG;
-            bgMoz    = "-moz-radial-gradient(" + x + "px " + y + "px 45deg, circle, " + lightColor + " 0%, rgba(66,133,244,1.0) " + gradientSize + "px)";
+            bgWebKit = "-webkit-gradient(radial, " + xy + ", 0, " + xy + ", " + gradientSize + ", from(" + lightColor + "), to(rgba(66,133,244,1.0))), " + originalBG;
+            bgMoz = "-moz-radial-gradient(" + x + "px " + y + "px 45deg, circle, " + lightColor + " 0%, rgba(66,133,244,1.0) " + gradientSize + "px)";
 
             $(this)
                 .css({
