@@ -586,6 +586,12 @@ td {
   }
 }
 
+.post-meta-item{
+  display: inline-block;
+}
 
+.pace-activity{
+  display: none!important;
+}
 
 

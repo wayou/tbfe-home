@@ -19,12 +19,15 @@
 		<div class="row widget-wrapper">
 			<!-- date -->
 			<% if (item.date) { %>
-			<i class="fa fa-clock-o"></i>
-			<span class="post-time"><%= item.date.format(config.date_format+' '+config.time_format) %></span> 
+			<div class="post-meta-item">
+				<i class="fa fa-clock-o"></i>
+				<span class="post-time"><%= item.date.format(config.date_format+' '+config.time_format) %></span>
+			</div>
 			<% } %>
 
 			<!-- categories -->
 		    <% if (item.categories  && item.categories.length ) { %>
+			<div class="post-meta-item">
 				<i class="fa fa-folder"></i>
 				<%
 				 var cats = [];
@@ -33,10 +36,12 @@
 				 });
 				 %>
 				<%- cats.join(' ') %>
+			</div>
 			<% } %>
 
 			<!-- tags -->
 			<% if(item.tags && item.tags.length ){ %>
+			<div class="post-meta-item">
 				<i class="fa fa-tags"></i>
 				<% var tags = [];
 				 item.tags.forEach(function(tag){
@@ -44,6 +49,7 @@
 				 });
 				%>
 				<%- tags.join(' ') %>
+			</div>
 			<% } %>
 		</div>
 
