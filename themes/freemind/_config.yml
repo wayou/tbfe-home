@@ -2,7 +2,7 @@ slogan: ""
 
 menu:
   - title: 首页
-    url: /
+    url: 
     intro: "贴吧FE内部首页"
     icon: "fa fa-paw"
   - title: 工具 
