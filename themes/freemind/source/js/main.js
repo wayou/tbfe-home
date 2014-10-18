@@ -1,6 +1,6 @@
 $(function() {
     var $toc = $("#toc");
-    if ( !! $toc.length) {
+    if ( !! $toc.length&&screen.width>999) {
         $("#toc").tocify({
             context: '.mypage',
             scrollHistory: true,
@@ -28,8 +28,8 @@ $(function() {
 function menuHighlight() {
     var originalBG = $(".nav li").css("background-color"),
         x, y, xy, bgWebKit, bgMoz,
-        lightColor = "rgba(255,255,255,0.75)",
-        gradientSize = 50;
+        lightColor = "rgba(44,108,222,0.9)",
+        gradientSize = 60;
 
     $('.nav li')
         .mousemove(function(e) {
@@ -37,9 +37,8 @@ function menuHighlight() {
             y = e.pageY - this.offsetTop;
             xy = x + " " + y;
 
-            // bgWebKit = "-webkit-gradient(radial, " + xy + ", 0, " + xy + ", 100, from(rgba(255,255,255,0.8)), to(rgba(255,255,255,0.0))), " + originalBG;
-            bgWebKit = "-webkit-gradient(radial, " + xy + ", 0, " + xy + ", "+gradientSize+", from(rgba(44,108,222,0.8)), to(rgba(66,133,244,1.0))), " + originalBG;
-            bgMoz = "-moz-radial-gradient(" + x + "px " + y + "px 45deg, circle, " + lightColor + " 0%, " + originalBG + " " + gradientSize + "px)";
+            bgWebKit = "-webkit-gradient(radial, " + xy + ", 0, " + xy + ", "+gradientSize+", from("+lightColor+"), to(rgba(66,133,244,1.0))), " + originalBG;
+            bgMoz    = "-moz-radial-gradient(" + x + "px " + y + "px 45deg, circle, " + lightColor + " 0%, rgba(66,133,244,1.0) " + gradientSize + "px)";
 
             $(this)
                 .css({

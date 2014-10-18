@@ -7,15 +7,15 @@ menu:
     icon: "fa fa-paw"
   - title: 工具 
     url: tools
-    intro: "All the categories."
+    intro: "项目集"
     icon: "fa fa-th-large"
   - title: 存档
     url: archives
-    intro: "All the articles."
+    intro: "全部文章"
     icon: "fa fa-list"
   - title: 分类 
     url: categories
-    intro: "All the categories."
+    intro: "所有分类"
     icon: "fa fa-folder"
   # - title: Tags
   #   url: tags
@@ -23,7 +23,7 @@ menu:
   #   icon: "fa fa-tags"
   - title: 关于
     url: about
-    intro: "About me."
+    intro: "简介"
     icon: "fa fa-info-circle"
   - title: RSS
     url: atom.xml
