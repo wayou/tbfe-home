@@ -1,1 +1,54 @@
-function menuHighlight(){var o,t,s,c,e,i=$(".nav li").css("background-color"),r="rgba(44,108,222,0.9)",a=60;$(".nav li").mousemove(function(n){o=n.pageX-this.offsetLeft,t=n.pageY-this.offsetTop,s=o+" "+t,c="-webkit-gradient(radial, "+s+", 0, "+s+", "+a+", from("+r+"), to(rgba(66,133,244,1.0))), "+i,e="-moz-radial-gradient("+o+"px "+t+"px 45deg, circle, "+r+" 0%, rgba(66,133,244,1.0) "+a+"px)",$(this).css({background:c}).css({background:e})}).mouseleave(function(){$(this).css({background:i})})}$(function(){var o=$("#toc");if(o.length&&screen.width>999){$("#toc").tocify({context:".mypage",scrollHistory:!0,theme:"bootstrap3",selectors:"h1,h2"});var t=$(window),s=$("#toc"),c=s.offset().top;t.scroll(function(){s.toggleClass("sticky-scroll",t.scrollTop()>c-110)})}menuHighlight()});
+$(function() {
+    var $toc = $("#toc");
+    if ( !! $toc.length && screen.width > 999) {
+        $("#toc").tocify({
+            context: '.mypage',
+            scrollHistory: true,
+            theme: 'bootstrap3',
+            selectors: 'h1,h2'
+        });
+
+        //sticky the toc
+        var $window = $(window),
+            $stickyEl = $('#toc'),
+            elTop = $stickyEl.offset().top;
+        $window.scroll(function() {
+            $stickyEl.toggleClass('sticky-scroll', $window.scrollTop() > elTop - 110);
+        });
+    }
+
+    // highlight the menu
+    menuHighlight();
+
+});
+
+//this is adapted from http://css-tricks.com/moving-highlight/
+function menuHighlight() {
+    var originalBG = $(".nav li").css("background-color"),
+        x, y, xy, bgWebKit, bgMoz,
+        lightColor = "rgba(44,108,222,0.9)",
+        gradientSize = 60;
+
+    $('.nav li')
+        .mousemove(function(e) {
+            x = e.pageX - this.offsetLeft;
+            y = e.pageY - this.offsetTop;
+            xy = x + " " + y;
+
+            bgWebKit = "-webkit-gradient(radial, " + xy + ", 0, " + xy + ", " + gradientSize + ", from(" + lightColor + "), to(rgba(66,133,244,1.0))), " + originalBG;
+            bgMoz = "-moz-radial-gradient(" + x + "px " + y + "px 45deg, circle, " + lightColor + " 0%, rgba(66,133,244,1.0) " + gradientSize + "px)";
+
+            $(this)
+                .css({
+                    background: bgWebKit
+                })
+                .css({
+                    background: bgMoz
+                });
+
+        }).mouseleave(function() {
+            $(this).css({
+                background: originalBG
+            });
+        });
+}
