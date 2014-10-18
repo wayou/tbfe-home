@@ -596,4 +596,6 @@ td {
   display: none!important;
 }
 
-
+.widget-wrapper{
+  margin: 15px 0;
+}

@@ -13,9 +13,15 @@ $(function() {
             $stickyEl = $('#toc'),
             elTop = $stickyEl.offset().top;
         $window.scroll(function() {
-            console.log($stickyEl);
             $stickyEl.toggleClass('sticky-scroll', $window.scrollTop() > elTop - 110);
         });
+
+        //fix for page refresh the toc not in right position
+        // if ($window.scrollTop() > elTop - 110) {
+        //     setTimeout(function() {
+        //         $stickyEl.addClass('sticky-scroll');
+        //     },1000);
+        // }
     }
 
     // highlight the menu
