@@ -24,12 +24,13 @@
   
   <!-- toc -->
   <link rel="stylesheet" href="/tbfe-home/css/jquery.tocify.css" media="screen" type="text/css">
+  <!-- pace -->
+  <link rel="stylesheet" href="/tbfe-home/css/pace.css" media="screen" type="text/css">
   
   <link rel="stylesheet" href="/tbfe-home/css/bootstrap.min.css" media="screen" type="text/css">
   <!-- material design -->
   <link rel="stylesheet" href="/tbfe-home/material/css/ripples.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/tbfe-home/material/css/material.css" media="screen" type="text/css">
-  
 
   <link rel="stylesheet" href="/tbfe-home/css/font-awesome.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/tbfe-home/css/style.css" media="screen" type="text/css">
@@ -44,7 +45,7 @@
 
 </head>
 
- <body>  
+ <body id="main">  
   <nav id="main-nav" class="navbar navbar-default" role="navigation">
     <div class="container">
       <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -99,7 +100,7 @@
 </nav>
 <div class="clearfix"></div>
 
-  <div class="container">
+  <div class="container" >
   	<div class="content">
     	 
 
@@ -125,29 +126,35 @@
 		<div class="row widget-wrapper">
 			<!-- date -->
 			
-			<i class="fa fa-clock-o"></i>
-			<span class="post-time">2014-10-17 14:00:16</span> 
+			<div class="post-meta-item">
+				<i class="fa fa-clock-o"></i>
+				<span class="post-time">2014-10-17 14:00:16</span>
+			</div>
 			
 
 			<!-- categories -->
 		    
+			<div class="post-meta-item">
 				<i class="fa fa-folder"></i>
 				
-				<a class="label label-success" href="/tbfe-home/categories/category1/">category1</a> <a class="label label-success" href="/tbfe-home/categories/category1/category11/">category11</a>
+				<a class="label label-success" href="/tbfe-home/categories/category1/">category1</a>
+			</div>
 			
 
 			<!-- tags -->
 			
+			<div class="post-meta-item">
 				<i class="fa fa-tags"></i>
 				
-				<a class="label label-warning" href="/tbfe-home/tags/test/">test</a> <a class="label label-warning" href="/tbfe-home/tags/tag1/">tag1</a>
+				<a class="label label-warning" href="/tbfe-home/tags/test/">test</a>
+			</div>
 			
 		</div>
 
 
-	    <h1 id="一级标题一级标题一级标题一级标题一级标题一级标题一级标题一级标题">一级标题一级标题一级标题一级标题一级标题一级标题一级标题一级标题</h1>
+	    <h1 id="一级标题一级标题一级标题一级标题一级标题">一级标题一级标题一级标题一级标题一级标题</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quo veritatis sit non quam explicabo ea repellat cumque dolor aliquid corporis porro, perferendis natus. Repellendus sapiente quos illo, explicabo doloribus.<br><a id="more"></a></p>
-<h2 id="二级标题一级标题一级标题一级标题一级标题一级标题一级标题一级标题一级标题">二级标题一级标题一级标题一级标题一级标题一级标题一级标题一级标题一级标题</h2>
+<h2 id="二级标题一级标题一级标题一级标题">二级标题一级标题一级标题一级标题</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laudantium omnis nostrum temporibus soluta sed incidunt laborum numquam debitis magnam commodi, laboriosam possimus veritatis illum eius iusto? Sunt, nisi quisquam?</p>
@@ -254,7 +261,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/tbfe-home/categories/category1/">category1</a></li> <li><a href="/tbfe-home/categories/category1/category11/">category11</a></li>
+    <li><a href="/tbfe-home/categories/category1/">category1</a></li>
   </li>
 
     </ul>
@@ -267,7 +274,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tbfe-home/tags/test/">test</a></li> <li><a href="/tbfe-home/tags/tag1/">tag1</a></li>
+  <li><a href="/tbfe-home/tags/test/">test</a></li>
     </ul>
 	</div>
 		-->
@@ -312,6 +319,9 @@
 <!-- toc -->
 <script src="/tbfe-home/js/jqueryui.js"></script>
 <script src="/tbfe-home/js/jquery.tocify.js"></script>
+
+<!-- pace -->
+<script src="/tbfe-home/js/pace.min.js"></script>
 
 <script src="/tbfe-home/js/main.js"></script>
 
