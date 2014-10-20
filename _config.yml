@@ -81,7 +81,7 @@ duoshuo_shortname: tbfe
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: freemind
+theme: hexo-theme-material
 exclude_generator:
 
 #minify files for production, using the hexo-generator-optimize package
