@@ -1,5 +1,6 @@
 title: Lorem Ipsum
 date: 2014-10-16 12:03:58
+toc: true
 tags: 文档
 categories: doc
 ---

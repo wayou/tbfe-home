@@ -1,4 +1,6 @@
 title: {{ title }}
 date: {{ date }}
-tags:
+toc: true
+categories: 未分类
+tags: 
 ---

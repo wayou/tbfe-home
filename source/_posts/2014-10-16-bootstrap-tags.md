@@ -1,5 +1,6 @@
 title: Bootstrap Tags
 date: 2014-10-16 12:12:09
+toc: true
 tags: bootstrap
 categories: UI
 ---

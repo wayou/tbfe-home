@@ -1,5 +1,6 @@
 title: Markdown Sample
 date: 2014-10-16 15:18:19
+toc: true
 tags: markdown
 categories: doc
 ---
