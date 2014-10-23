@@ -4,7 +4,7 @@ layout: about
 ---
 
 {% textcolor success %}
-  我们来自贴吧
+  UNDER CONSTRUCTION...
 {% endtextcolor %}
 
 
