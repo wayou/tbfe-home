@@ -15,7 +15,7 @@ tags:
 
 # 初见/Intro
 
-这是使用[Hexo](http://hexo.io/)搭建的静态站点，基于[Node.js](http://nodejs.org/)，内容采用[Markdown](http://daringfireball.net/projects/markdown/syntax) 语法撰写。
+这是使用[Hexo](http://hexo.io/)搭建的静态站点，基于[Node.js](http://nodejs.org/)，内容采用[Markdown](http://daringfireball.net/projects/markdown/syntax) 撰写。
 
 这里，我们进行知识分享扩散，文档整理存放，项目展示介绍。随着时间的推移，会沉淀更多的内容。
 
@@ -95,8 +95,9 @@ hexo new "My New Post" #最好用英文
 title: Hello World  #文章的标题，这里可以换成中文
 toc: true   #是否显示文章目录，即右侧自动高亮的目录树
 date: 2014-10-22 14:16:32   #文章创建的时间，匆改
-author: wayou   #需要显示的作者，可选
+author: wayou   #需要显示的作者名，可选
 feature: asset/posts/2014-10-22-hello-world/hexo_logo.png    #显示在首页的文章头图，如果不需要可以去掉此项
+description: 本文纯粹吐槽 #显示在文章顶部的描述，可选
 categories: 文档  #文章分类，可选
 tags:   #文章标签，可选
 - hexo
@@ -145,10 +146,10 @@ MD中链接句法为方括号包裹链接文字，圆括号包裹链接地址。
 ```markdown
 [Hi, 约么？](http://shurufa.baidu.com/)
 ```
-
 结果：
 [Hi, 约么？](http://shurufa.baidu.com/)
 
+<br>
 ####图片
 
 图文并茂的页面让人更能够赏心悦目。所以你应该不会吝啬多放几张图片。
@@ -230,6 +231,8 @@ __double underscores__
 - 列表项2
 - 列表项3
 
+<br>
+
 #### 有序列表
 
 下面是有序列表的示例
@@ -242,6 +245,8 @@ __double underscores__
 1. 列表项1
 2. 列表项2
 3. 列表项3
+
+<br>
 
 #### 嵌套列表
 
