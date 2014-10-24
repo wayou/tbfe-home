@@ -56,10 +56,6 @@ npm i
 npm install
 ```
 
-## 安装主题
-```bash
-git clone https://github.com/wayou/hexo-theme-material.git themes/material
-```
 
 ## 启动服务器
 准备好了吗？使用下面的命令，来打开站点吧！
