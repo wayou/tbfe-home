@@ -14,7 +14,6 @@
 <script src="<%- config.root %>js/jqueryui.js"></script>
 <script src="<%- config.root %>js/jquery.tocify.js"></script>
 
-
 <script src="<%- config.root %>js/main.js"></script>
 
 <% if (config.disqus_shortname){ %>
@@ -37,6 +36,16 @@ var disqus_shortname = '<%= config.disqus_shortname %>';
 <script type="text/javascript">
 (function($){
   $('.fancybox').fancybox();
+})(jQuery);
+</script>
+<% } %>
+
+<% if (page.dropcap){ %>
+<script src="<%- config.root %>js/dropcap.js"></script>
+<script type="text/javascript">
+(function($){
+    var dropcaps = document.querySelectorAll(".dropcap");
+    window.Dropcap.layout(dropcaps, 2,2);
 })(jQuery);
 </script>
 <% } %>
