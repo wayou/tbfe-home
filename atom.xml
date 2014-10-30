@@ -4,7 +4,7 @@
   
   <link href="/tbfe-home/atom.xml" rel="self"/>
   <link href="http://wayou.github.io/"/>
-  <updated>2014-10-24T02:58:29.560Z</updated>
+  <updated>2014-10-30T02:57:29.535Z</updated>
   <id>http://wayou.github.io/</id>
   
   <author>
@@ -19,11 +19,11 @@
     <link href="http://wayou.github.io/2014/10/22/hello-world/"/>
     <id>http://wayou.github.io/2014/10/22/hello-world/</id>
     <published>2014-10-22T06:16:32.000Z</published>
-    <updated>2014-10-24T02:41:29.000Z</updated>
+    <updated>2014-10-30T02:42:31.000Z</updated>
     <content type="html"><![CDATA[<p class="text-success">Welcome, dude!</p>
 
 <h1 id="初见/Intro">初见/Intro</h1>
-<p>这是使用<a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>搭建的静态站点，基于<a href="http://nodejs.org/" target="_blank" rel="external">Node.js</a>，内容采用<a href="http://daringfireball.net/projects/markdown/syntax" target="_blank" rel="external">Markdown</a> 撰写。</p>
+<p><span class="dropcap">这</span>是使用<a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>搭建的静态站点，基于<a href="http://nodejs.org/" target="_blank" rel="external">Node.js</a>，内容采用<a href="http://daringfireball.net/projects/markdown/syntax" target="_blank" rel="external">Markdown</a> 撰写。</p>
 <p>这里，我们进行知识分享扩散，文档整理存放，项目展示介绍。随着时间的推移，会沉淀更多的内容。</p>
 <p>时间就像一坛尘封的酒酿，若干年后，就会发现它的醇香。</p>
 <p>这里也是。</p>
@@ -65,7 +65,7 @@
 <p>它会在项目的<code>source/_posts/</code> 路径下创建一个时间加文章标题的<code>.md</code> 文件。我在这个文件中书写文章内容。</p>
 <h2 id="文章选项">文章选项</h2>
 <p>上面方法创建的文件中，头部包含了该篇文章的一些配置信息，所以你看到的应该是下面这个样子：</p>
-<figure class="highlight markdown"><figcaption><span>以本文的头部信息作示例</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">title: Hello World  #文章的标题，这里可以换成中文</div><div class="line">toc: true   #是否显示文章目录，即右侧自动高亮的目录树</div><div class="line">date: 2014-10-22 14:16:32   #文章创建的时间，匆改</div><div class="line">author: wayou   #需要显示的作者名，可选</div><div class="line">feature: asset/posts/2014-10-22-hello-world/hexo_logo.png    #显示在首页的文章头图，如果不需要可以去掉此项</div><div class="line">description: 本文纯粹吐槽 #显示在文章顶部的描述，可选</div><div class="line">categories: 文档  #文章分类，可选</div><div class="line">tags:   #文章标签，可选</div><div class="line"><span class="bullet">- </span>hexo</div><div class="line"><span class="header">- markdown</span></div><div class="line">---</div><div class="line"></div><div class="line">这里开始正文</div><div class="line"></div><div class="line"><span class="xml"><span class="comment">&lt;!-- more --&gt;</span></span>  #在正文中写了此注释，则注释前的内容将作为文章摘要显示在首页</div><div class="line"></div><div class="line">这里继续正文</div></pre></td></tr></table></figure>
+<figure class="highlight markdown"><figcaption><span>以本文的头部信息作示例</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">title: Hello World  #文章的标题，这里可以换成中文</div><div class="line">toc: true   #是否显示文章目录，即右侧自动高亮的目录树</div><div class="line">dropcap: false  #是否启用drocap，类似报刊杂志首字增大的效果</div><div class="line">date: 2014-10-22 14:16:32   #文章创建的时间，匆改</div><div class="line">author: wayou   #需要显示的作者名，可选</div><div class="line">feature: asset/posts/2014-10-22-hello-world/hexo_logo.png    #显示在首页的文章头图，如果不需要可以去掉此项</div><div class="line">description: 本文纯粹吐槽 #显示在文章顶部的描述，可选</div><div class="line">categories: 文档  #文章分类，可选</div><div class="line">tags:   #文章标签，可选</div><div class="line"><span class="bullet">- </span>hexo</div><div class="line"><span class="header">- markdown</span></div><div class="line">---</div><div class="line"></div><div class="line">这里开始正文</div><div class="line"></div><div class="line"><span class="xml"><span class="comment">&lt;!-- more --&gt;</span></span>  #在正文中写了此注释，则注释前的内容将作为文章摘要显示在首页</div><div class="line"></div><div class="line">这里继续正文</div></pre></td></tr></table></figure>
 
 <h2 id="句法">句法</h2>
 <p>使用Markdown句法，我们可以很方便地写出简单优雅的排版。<br>如果你未曾了解过，让我们一起来简单熟悉一些常用MD句法。如果你已经了解，则路过。</p>
@@ -237,7 +237,7 @@
     <![CDATA[<p class="text-success">Welcome, dude!</p>
 
 <h1 id="初见/Intro">初见/Intro</h1>
-<p>这是使用<a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>搭建的静态站点，基于<a href="http://nodejs.org/" target="_blank" rel="external">Node.js</a>，内容采用<a href="http://daringfireball.net/projects/markdown/syntax" target="_blank" rel="external">Markdown</a> 撰写。</p>
+<p><span class="dropcap">这</span>是使用<a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>搭建的静态站点，基于<a href="http://nodejs.org/" target="_blank" rel="external">Node.js</a>，内容采用<a href="http://daringfireball.net/projects/markdown/syntax" target="_blank" rel="external">Markdown</a> 撰写。</p>
 <p>这里，我们进行知识分享扩散，文档整理存放，项目展示介绍。随着时间的推移，会沉淀更多的内容。</p>
 <p>时间就像一坛尘封的酒酿，若干年后，就会发现它的醇香。</p>
 <p>这里也是。</p>
