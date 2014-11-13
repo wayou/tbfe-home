@@ -4,7 +4,7 @@
   
   <link href="/tbfe-home/atom.xml" rel="self"/>
   <link href="http://wayou.github.io/"/>
-  <updated>2014-11-12T13:50:40.489Z</updated>
+  <updated>2014-11-13T02:23:06.595Z</updated>
   <id>http://wayou.github.io/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://wayou.github.io/2014/11/12/angularjs-new-dev-pattern/"/>
     <id>http://wayou.github.io/2014/11/12/angularjs-new-dev-pattern/</id>
     <published>2014-11-12T12:16:39.000Z</published>
-    <updated>2014-11-12T13:46:03.000Z</updated>
+    <updated>2014-11-13T02:22:55.000Z</updated>
     <content type="html"><![CDATA[<p>感谢前人「刘凯，洪堂」的成果，站在巨人的肩上继续走得更远！</p>
 <p>基于自己开发的开发过程，和收集的各种不便，内部平台现对之前的静态开发方案进行了一次升级。<br>这次改进是尝试性的，为是探求更好的开发方式，改进现有工作流程，提升效率和使开发更方便。<br>升级之后初始代码将变得更轻量，文件及三方库的添加更自由，同时更加符合Angular官方规范。</p>
 <p>同时也作为新开发方式的一种探索和实践，为新版脚手架提供参考。</p>
@@ -71,7 +71,19 @@
 
 <p>其中在<code>controller</code> 里指定controller名称,而不是对应的文件路径。同时也不需要原先<code>app.js</code> 中最后两行注册模块及启动程序的代码。</p>
 <h3 id="views文件夹"><code>views</code>文件夹</h3>
-<p>存放部分视图<code>HTML</code> 文件及视图对应的<code>Controller</code> 文件，如果还需要本部分视图单独使用的<code>filter</code>,<code>service</code> 或<code>resource</code>等，将单独的js文件放到此目录即可。</p>
+<p>此文件夹下存放部分视图<code>HTML</code> 文件及视图对应的<code>Controller</code> 文件，按功能或者说按页面进行划分。</p>
+<ul>
+<li>view1</li>
+<li>view2</li>
+<li>…</li>
+</ul>
+<p>如果还需要本部分视图单独使用的<code>filter</code>,<code>service</code> 或<code>resource</code>等，将单独的js文件放到对应部分视图目录下即可。</p>
+<ul>
+<li>view1.html</li>
+<li>view1_controller.js</li>
+<li>…</li>
+</ul>
+<p>其中，现在的开发方式不需要在<code>view.html</code> 中指定<code>ng-congtroller</code>, 因为这个工作已经在路由配置时做了。</p>
 <h3 id="services_文件夹"><code>services</code> 文件夹</h3>
 <p>存放本项目公用服务。进行复杂业务逻辑的处理或繁杂运算等。</p>
 <h3 id="resources_文件夹"><code>resources</code> 文件夹</h3>
