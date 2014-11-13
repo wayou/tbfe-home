@@ -163,7 +163,7 @@ MD中图片的写法与链接极其相似，只是链接前端多了个叹号，
 ```
 
 结果：
-![bigger that bigger](/tbfe-home/asset/posts/2014-10-22-hello-world/btb.jpg)
+![bigger that bigger](/asset/posts/2014-10-22-hello-world/btb.jpg)
 
 
 ### 强调与斜体

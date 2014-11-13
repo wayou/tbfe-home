@@ -27,7 +27,7 @@ tags:
 
 # 目录结构
 
-![](/tbfe-home/asset/posts/2014-11-12-angularjs-new-dev-pattern/angular.png)
+![](/asset/posts/2014-11-12-angularjs-new-dev-pattern/angular.png)
 
 上图只列出了与静态文案相关的目录及文件，现描述如下：
 
@@ -198,11 +198,11 @@ angular.bootstrap(document, [module.name]);
 //配置要合并的代码，即之前的__merge_conf.php配置的内容
 fis.config.merge({
     pack: {
-        'static/app/project1/app_all.js': [
-            /static\/app\/project1\/.*.js/
+        'static/project1/app_all.js': [
+            /static\/project1\/.*.js/
         ],
-        'static/app/project2/app_all.js': [
-            /static\/app\/project2\/.*.js/
+        'static/project2/app_all.js': [
+            /static\/project2\/.*.js/
         ]
     }
 });
