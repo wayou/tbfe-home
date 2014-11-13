@@ -1,6 +1,7 @@
 title: 内部平台静态开发方案2.0
 toc: true
 dropcap: false
+feature: asset/common/img/posts/angular.png
 categories: 文档
 date: 2014-11-12 20:16:39
 author: wayou
@@ -13,16 +14,18 @@ tags:
 
 基于自己开发的开发过程，和收集的各种不便，内部平台现对之前的静态开发方案进行了一次升级。
 这次改进是尝试性的，为是探求更好的开发方式，改进现有工作流程，提升效率和使开发更方便。
-升级之后初始代码将变得更轻量，文件及三方库的添加更自由，同时更加符合Angular官方规范。
 
 同时也作为新开发方式的一种探索和实践，为新版脚手架提供参考。
 
 <!-- more -->
 
-#模块化
-改变后的文案更多强调使用AngularJS原生及推荐的项目组织方式进行开发。特别是模块化方面，使用AngularJS自身的模块化系统，取消requrejs按需要加载的方式。AngularJS本身支持模块化，将所有文件一次性加载到页面，只有被用到的模块才会被实例化执行其中代码，所以没有必要引入`requirejs`。
+# 文件引用
+之前使用异步拉取每个部分视图`controller`的方式在特殊需要时会有顺序的问题，以至于好多逻辑只能折中写到`app.js`文件里。现将之前异步方式改为同步，去掉`requirejs`，一次性将AngularJS程序的js文件引入。
 
-#目录结构
+并且Angular模块只会在调用时被实例化，所以提前到页面也不会浪费资源。
+
+
+# 目录结构
 
 ![](/tbfe-home/asset/posts/2014-11-12-angularjs-new-dev-pattern/angular.png)
 
@@ -37,7 +40,7 @@ control 文件与原来的一样
 
  `template 文件`里引用 `devplatcommon 基础库` 模块的部分与原来一样，只是引用项目启动文件的方式进行了改变。
 
- fis配置中将会在 `static/app/project_name/ ` 下生成一个 `app_all.js` 文件，在template里面将原来引用`app.js`的地方替换为引用此文件。
+ fis配置中将会在 `static/project_name/ ` 下生成一个 `app_all.js` 文件，在template里面将原来引用`app.js`的地方替换为引用此文件。
 
 
 ```php before
@@ -54,17 +57,11 @@ echo HTML::js('project_name/app.js', "module_name");
 /**
  * 如下代码用将由框架负责处理js资源加载到页面
  */
-echo HTML::js('app/project_name/app_all.js', "module_name");
+echo HTML::js('project_name/app_all.js', "module_name");
 ?>
 ```
 
 区别在于之前在template里引用的是AngularJS的主程序入口文件，而现在的`app_all.js`是整个AngularJS程序所有文件合并的结果。
-
-同时，在`template` 里面的`<body>` 标签指定`ng-app`:
-
-```html
-<body ng-app="project_name">
-```
 
 ##static 文件夹
 
@@ -77,6 +74,7 @@ app下面是以项目为单位分开的文件夹，里面存放项目主要的�
 - `app.js` AngularJS程序的主入口文件
 - `views`文件夹，存放部分视图`HTML` 文件及视图对应的`Controller` 文件
 - `services` 文件夹，存放本项目公用服务
+- `directives` 文件夹，存放项目公用`directive`
 - `resources` 文件夹，存放本项目公用`resource`文件
 - `filters` 文件夹，存放本项目公用`filters`
 
@@ -153,6 +151,8 @@ module.config([
         });
     }
 ]);
+//启动Angular程序
+angular.bootstrap(document, [module.name]);
 ```
 
 其中在`controller` 里指定controller名称,而不是对应的文件路径。同时也不需要原先`app.js` 中最后两行注册模块及启动程序的代码。
@@ -160,11 +160,27 @@ module.config([
 
 ### `views`文件夹
 
-存放部分视图`HTML` 文件及视图对应的`Controller` 文件，如果还需要本部分视图单独使用的`filter`,`service` 或`resource`等，将单独的js文件放到此目录即可。
+此文件夹下存放部分视图`HTML` 文件及视图对应的`Controller` 文件，按功能或者说按页面进行划分。
+
+- view1
+- view2
+- ...
+
+如果还需要本部分视图单独使用的`filter`,`service` 或`resource`等，将单独的js文件放到对应部分视图目录下即可。
+
+- view1.html
+- view1_controller.js
+- ...
+
+其中，现在的开发方式不需要在`view.html` 中指定`ng-congtroller`, 因为这个工作已经在路由配置时做了。
 
 ### `services` 文件夹
 
 存放本项目公用服务。进行复杂业务逻辑的处理或繁杂运算等。
+
+### `directives` 文件夹
+
+存放本项目公用的`directive`,一般是一些页面的组件。
 
 ### `resources` 文件夹
 
